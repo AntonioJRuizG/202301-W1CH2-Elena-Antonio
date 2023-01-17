@@ -9,11 +9,48 @@
 </head>
 
 <body>
+<main>
+
   <header>
     <h1>Challenge 2</h1>
   </header>
+  
   <nav>Contact</nav>
 
+
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="cv.html">Our CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+    <form>
+      <label for="introducir_nombre" class="colocar_nombre">Nombre
+      </label>
+      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+
+      <label for="introducir_email" class="email">Email
+        <span class="obligatorio">*</span>
+      </label>
+      <input type="text" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu email">
+
+      <label for="introducir_comentarios" class="class-comentarios">Comentarios
+        <span class="obligatorio">*</span>
+      </label>
+      <input type="text" name="introducir_comentarios" id="comentarios" placeholder="Escribe tu nombre">
+      </p>
+      <button type="submit" name="enviar_formulario" id="enviar">
+        <p>Enviar</p>
+      </button>
+    </form>
+  </section>
+</main>
 
 </body>
 
